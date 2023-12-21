@@ -16,3 +16,21 @@ TICK
 TICK
 
 ## 3. Remote Code Execution via Java Deserialization of Stored Database Objects
+Uses [ysoserial]('https://github.com/frohoff/ysoserial') tool to expolit unsfae deserialisation in Java apps. 
+
+The finding and the references it makes (like to [CWE-502]('https://cwe.mitre.org/data/definitions/502.html') and the [OWASP cheat sheet]('https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html')) are legit. 
+
+Interstingly the screenshot is lifted from the github README on ysoserial, just with candycan.exe replacing calc.exe.
+
+## 4. Azure Function Application-SSH Configuration Key Signing Vulnerable to Principal Manipulation
+
+
+## 5. Azure Key Vault-Overly Permissive Access from Azure Virtual Machine Metadata Service/Managed Identity
+
+## 6. Stored Cross-Site Scripting Vulnerabilities
+
+## 7. Browsable Directory Structure
+
+## 8. Deprecated Version of PHP Scripting Language
+
+## 9. Internal IP Address Disclosure
