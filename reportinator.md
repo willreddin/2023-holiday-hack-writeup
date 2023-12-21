@@ -22,15 +22,37 @@ The finding and the references it makes (like to [CWE-502]('https://cwe.mitre.or
 
 Interstingly the screenshot is lifted from the github README on ysoserial, just with candycan.exe replacing calc.exe.
 
-## 4. Azure Function Application-SSH Configuration Key Signing Vulnerable to Principal Manipulation
+TICK
 
+## 4. Azure Function Application-SSH Configuration Key Signing Vulnerable to Principal Manipulation
+The writing of this finding does seem strange on first reading. Azure function App documentation isn't easily findable. Does it mean [this]('https://learn.microsoft.com/en-us/azure/azure-functions/')?
+
+It's very hard to find any other details on sign-principle with regards to SSH sign ins. 
+
+CROSS
 
 ## 5. Azure Key Vault-Overly Permissive Access from Azure Virtual Machine Metadata Service/Managed Identity
+Well documented tool and command in [Azure]('https://learn.microsoft.com/en-us/azure/key-vault/general/security-features').
+
+It also follows up with a remediation that makes sense, with commands that are documented. Here's the docs for [az keyvault secret set]('https://learn.microsoft.com/en-us/cli/azure/keyvault/secret?view=azure-cli-latest#az-keyvault-secret-set')
+
+TICK
 
 ## 6. Stored Cross-Site Scripting Vulnerabilities
+The first sentence, is off. It's not how I would expect a pentester to present a XSS finding. Pretty sure this is AI generated. It's long winded and seems very general, not specific to the client. 
+
+CROSS
 
 ## 7. Browsable Directory Structure
+I only get pending and timed out repsonses when trying to access those sites. 
+
+CROSS
 
 ## 8. Deprecated Version of PHP Scripting Language
+Nmap scan seems correct. and the findings match up with the sceen shot. 
+
+TICK
 
 ## 9. Internal IP Address Disclosure
+
+CROSS
